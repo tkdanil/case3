@@ -1,3 +1,4 @@
+
 # project_1
 
 # Есть 5 документов в формате .docx. Напишите скрипт, который изменит во всех документах:
@@ -8,3 +9,4 @@
 
 # Ссылка на файлы:
 # https://drive.google.com/drive/folders/1zGuYE9Decw6_iS7T3WKfdzncTE51ZvOP?usp=sharing 
+
