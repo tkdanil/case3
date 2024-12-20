@@ -2,11 +2,13 @@
 ## Описание
 Это скрипт, который изменяет шрифты, размер шрифта, стиль и межстрочный интервал
 ## Установка
-import os
-from docx import Document
-from docx.shared import Pt
-from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
-from docx.oxml import OxmlElement
+1) Установите Python
+2) Установите библиотеку python-docx После активации виртуального окружения установите необходимую библиотеку с помощью pip: pip install python-docx
+3) Загрузите документы Скачайте пять документов с предоставленной ссылки Google Drive: https://drive.google.com/drive/folders/1zGuYE9Decw6_iS7T3WKfdzncTE51ZvOP?usp=sharing Поместите их в одну папку рядом со скриптом.
+## Как начать работу
+Откройте текстовый редактор, создайте новый файл и назовите его, например, change_formatting.py.
+Вставьте следующий код в этот файл:
+from docx import Document import os
 ## Участники команды
 Ткаченко Данил Алексеевич
 Шабанов Алексей Сергеевич 
