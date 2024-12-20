@@ -14,4 +14,6 @@ from docx.shared import Pt
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 from docx.oxml import OxmlElement
 
-
+# Функция для изменения формата документа
+def format_docx(file_path):
+    doc = Document(file_path)
