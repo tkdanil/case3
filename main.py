@@ -1,12 +1,12 @@
-# main - стартовый модуль
 
-#импортыизмодуля
-from functios import fun1, fun2
+# project_1
 
-#функция запуска импортивнных функций
-def main():
-    pass
+# Есть 5 документов в формате .docx. Напишите скрипт, который изменит во всех документах:
+# - шрифт – Times New Roman
+# - размер шрифта – 14
+# - межстрочный интервал – 1,5
+# Используйте библиотеку python-docx
 
-#инцилизированный скирпт
-if _name_ == `_main_`:
-    main()
+# Ссылка на файлы:
+# https://drive.google.com/drive/folders/1zGuYE9Decw6_iS7T3WKfdzncTE51ZvOP?usp=sharing 
+
