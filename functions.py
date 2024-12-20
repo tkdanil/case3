@@ -17,3 +17,11 @@ from docx.oxml import OxmlElement
 # Функция для изменения формата документа
 def format_docx(file_path):
     doc = Document(file_path)
+
+# Изменяем стиль каждого абзаца в документе
+    for paragraph in doc.paragraphs:
+        # Устанавливаем шрифт и размер шрифта
+        for run in paragraph.runs:
+            run.font.name = 'Times New Roman'
+            run.font.size = Pt(14)
+
